@@ -13,7 +13,6 @@ from scipy import cluster
 import pandas as pd
 import math
 import colorsys
-import click
 
 def step(r, g, b, repititions=1):
 	lum = math.sqrt(0.241 * r + 0.691 * g + 0.068 * b)
@@ -55,7 +54,7 @@ def get_color_pallete(input_file, num_colors):
         # within each pixel in the line
     	for pixel in line:
             # pick out the red, green, blue values and append to array
-    		r, g, b, a = pixel
+    		r, g, b = pixel
     		red.append(r)
     		green.append(g)
     		blue.append(b)
