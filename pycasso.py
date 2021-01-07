@@ -22,12 +22,13 @@ GBH_palette_10      = ['#4a0908', '#7a281c', '#8794d0', '#625e98', '#e99ec0', '#
 moonlight_palette_10= ['#0e1a31', '#052c52', '#07345e', '#063b68', '#064374', '#0a4270', '#094c7c', '#1c4e77', '#125988', '#070910']
 dogdays_palette_10  = ['#2f2e2e', '#886d2d', '#817d75', '#eaba6d', '#dbd8cb', '#b5b3ad', '#969795', '#ecf0ef', '#111213', '#434c58']
 highbeams_palette_8 = ['#fe8e55', '#e19d58', '#fdb57c', '#0239bd', '#0249d3', '#41abf5', '#93d2d8', '#a8dce6']
-blond_palette    = ['#dcddd7', '#1b1b1b', '#b06a51', '#46291b', '#3b5538']
+blond_palette_5     = ['#dcddd7', '#1b1b1b', '#b06a51', '#46291b', '#3b5538']
+swimming_palette_7  = ['#1a1414', '#312a2a', '#c89b9a', '#ffffff', '#d4d3da', '#977375', '#645051']
 # set palette to preset
-hex_colors = blond_palette
+hex_colors = swimming_palette_7
 
 # set palette to new palette from image (png)
-# hex_colors = get_color_pallete('blond.png', 10)
+# hex_colors = get_color_pallete('swimming.png', 10)
 
 N = 16 # grid side length
 figure(num=None, figsize=(10, 10), dpi=120, facecolor='w', edgecolor='k')
